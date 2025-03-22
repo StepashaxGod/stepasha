@@ -1,14 +1,28 @@
 /* file for importing the pictures and exporting, making an array of objects to extract the values and exporting them
  */
 import ferrari_sf90_stradale from "./ferrari_sf90_stradale.jpg";
-import mercedes_s63e_performance from "./mercedes_s63e_performance.jpg"; 
+import mercedes_s63e_performance from "./mercedes_s63e_performance.jpg";
 import lamborghini_revuelto from "./lamborghini_revuelto.jpg";
+import lookImage from "./look-image.png";
+import profile from "./profile.png";
+import cartImage from "./cartImage.png";
+import menuIcon from "./menu_icon.png";
+import carHero from "./car_hero.png";
+import carLogo from "./car-logo.png"
+import logo from "./logo.png"
 
 export const assets = {
-   ferrari_sf90_stradale,
-   mercedes_s63e_performance,
-   lamborghini_revuelto
-}
+  ferrari_sf90_stradale,
+  mercedes_s63e_performance,
+  lamborghini_revuelto,
+  lookImage,
+  profile,
+  cartImage,
+  menuIcon,
+  carHero,
+  carLogo,
+  logo
+};
 
 export const cars = [
   {
